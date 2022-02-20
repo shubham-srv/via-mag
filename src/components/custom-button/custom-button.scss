@@ -1,0 +1,38 @@
+.custom-button {
+  padding: 5% 0;
+  margin: auto;
+  margin-bottom: 5%;
+  border: none;
+  border-radius: 40px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #20b716;
+  font-size: 100%;
+  font-weight: 600;
+  cursor: pointer;
+
+  &.google {
+    border-radius: 0;
+    background-color: #4285f4;
+  }
+  &.facebook {
+    border-radius: 0;
+    background-color: #1877f2;
+  }
+
+  .google-icon {
+    height: auto;
+    float: left;
+    background: url("../../assets/Group\ 9@2x.png") no-repeat;
+    background-size: contain;
+  }
+  .facebook-icon {
+    display: inline;
+    left: 1vw;
+    float: left;
+    width: 10%;
+    background-color: #1877f2;
+    background-image: url("../../assets/Rectangle\ 17@2x.png");
+    background-size: contain;
+  }
+}

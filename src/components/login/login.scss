@@ -1,0 +1,89 @@
+.bg-image {
+  position: relative;
+  background-image: url("../../assets/Rectangle-1.png");
+  width: auto;
+  height: 19vw;
+  @media screen and (max-width: 800px) {
+    height: 30vw;
+  }
+}
+
+.input-fields {
+  display: block;
+}
+
+.login {
+  @media screen and (max-width: 800px) {
+    width: 90vw;
+    left: 5vw;
+    height: 100vw;
+    top: 15vw;
+  }
+  position: absolute;
+  left: 29vw;
+  top: 6vw;
+  width: 42vw;
+  height: 50vw;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  align-content: center;
+
+  .login-content {
+    @media screen and (max-width: 800px) {
+      width: 100%;
+    }
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+    .login-img-container {
+      width: auto;
+      height: auto;
+      .login-img {
+        width: auto;
+        height: 10vmax;
+        background: url("../../assets/Rectangle\ 4.png") no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+
+  .login-options {
+    a {
+      font-weight: 600;
+      text-decoration: none;
+      color: black;
+    }
+    display: flex;
+    justify-content: space-between;
+    .new-user {
+      color: #ee2d6e;
+    }
+  }
+
+  .login-title {
+    font: normal normal normal 29px/35px Josefin Sans;
+    letter-spacing: 0px;
+    color: #20b716;
+  }
+
+  .login-logo {
+    width: auto;
+    height: 4vw;
+    box-shadow: 0px 3px 7px #00000029;
+    border-radius: 6px 6px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    .login-logo-img {
+      max-width: 100%;
+      height: auto;
+      background-image: url("../../assets/amazon_PNG24.png");
+      background-size: contain;
+      margin: auto;
+      width: 7vw;
+      height: 2.5vw;
+    }
+  }
+}
